@@ -13,7 +13,7 @@ const extractIdentifier = (profileLink) => {
 };
 
 const sleep = (milliseconds) => {
-  console.log("sleep timeout");
+  console.log("sleep timeout in seconds");
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 };
 
